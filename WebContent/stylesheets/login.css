@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'Bellota-LightItalic';
+    src: url('../fonts/Meteora.ttf');
+}
+
+@font-face {
+    font-family: 'Bellota-BoldItalic';
+    src: url('../fonts/Meteora.ttf');
+}
+
+body {
+    background-color: #eef5fb;
+  
+}
+.wrapper {
+	width: 35%;
+	text-align: center;
+	text-align: center;
+	font-family: Bellota-LightItalic, sans-serif;
+	font-size: 20px;
+	background-color: rgba(27, 207, 215, 0.28);
+	border-radius: 20px;
+	margin-top: 1%;
+	margin-left: 200px;
+	
+}
+
+#input2 {
+	 border: 1px solid black;
+    border-radius: 3px;
+    margin: 5px 0 5px 0;
+    padding: 5px 10px 5px 10px;
+    color: #000;
+    font-size: 100%;
+    width: 40%;
+    font-family: cursive;
+}
+#toplogobar2 {
+    font-family: 'Bellota-BoldItalic', sans-serif;
+    color: rgba(217, 2, 38, 0.94);
+    font-size: 200%;
+    text-shadow: #000 0.5px 0.5px 0px;
+    text-decoration: none;
+}
+#toplogobarBeacon2 {
+	color: rgb(27, 207, 215);
+}
+
+.wrapper2 {
+	width: 35%;
+	text-align: center;
+	font-family: Bellota-LightItalic, sans-serif;
+	font-size: 20px;
+	background-color: rgba(27, 207, 215, 0.28);
+	border-radius: 20px;
+	position: absolute;
+	margin-top: -500px;
+	margin-left: 40%;
+	
+
+
+}
+
+#footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(27, 207, 215, 0.28);
+    font-family: 'Bellota-LightItalic', sans-serif;
+    width: 100%;
+    color: #000;
+    text-align: center;
+}
+input[type=submit]:hover {
+	cursor: pointer;
+	background-color: rgba(27, 207, 215, 0.28);
+}
+input:active {
+	outline: 0;
+}
+

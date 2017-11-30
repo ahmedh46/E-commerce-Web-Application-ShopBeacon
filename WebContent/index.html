@@ -1,0 +1,139 @@
+<html>
+<head>
+<title>ShopBeacon</title>
+<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+<script src="https://www.w3schools.com/lib/w3.js"></script>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+<div w3-include-html="header.jsp"></div> 
+<script>
+w3.includeHTML(); 
+
+
+</script>
+<table>
+	<tr>
+		<td>
+			<div id="popular">
+			<h3> <span id="toplogobarh3"> Popular Brands </span></h3>
+			Apple <br> <br>
+			Samsung <br> <br>
+			HTC <br> <br>
+			Sony <br> <br>
+			LG <br> <br>
+			Nokia <br> <br>
+			Blackberry
+			</div>
+		</td>
+		<td>
+			<div id="banner">
+				<div class="w3-content w3-section" style="max-width:500px">
+				  <img class="mySlides w3-animate-fading" src="images/phones_banner/banner_sony_xperia_Z5.jpg" style="border-radius: 10px;max-width: 800px;height:400px; ">
+				  <img class="mySlides w3-animate-fading" src="images/phones_banner/banner_samsung_s8.jpg" style="border-radius: 10px;max-width: 800px;height:400px;">
+				  <img class="mySlides w3-animate-fading" src="images/phones_banner/banner_oneplus_2.png"style="border-radius: 10px;max-width: 800px;height:400px;">
+				  <img class="mySlides w3-animate-fading" src="images/phones_banner/banner_iphone_x.jpg" style="border-radius: 10px;max-width: 800px;height:400px;">
+				</div>
+			</div>
+		</td>
+	</tr>
+</table>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 9000);    
+}
+</script>
+</div>
+<form action="products">
+<table class="index_table">
+
+<tr> <td> <input type="image" name="sony" id="index_images" src="images/phones_banner/banner_sony_xperia_Z5.jpg" > </td> 
+<td> Brand: Sony <br>
+	Phone: Sony Xperia Z5 <br>
+	Price: &dollar;300 <br>
+	Weight: &dollar;300 <br>
+	Screen Size: &dollar;300 <br></td>
+	<td> <input type="image" name="oneplus" id="index_images" src="images/phones_banner/banner_oneplus_2.png" > </td> 
+<td> Brand: OnePlus <br>
+	Phone: OnePlus2 <br>
+	Price: &dollar;500 <br>
+	Weight: 175 g <br>
+	Screen Size: 5.5 inches <br>
+	</td>
+	
+	</tr>
+	<tr> <td> <input type="image" name="samsung" id="index_images" src="images/phones_banner/banner_samsung_s8.jpg" > </td> 
+<td> Brand: Samsung <br>
+	Phone: Samsung S8 <br>
+	Price: &dollar;200 <br>
+	Weight: 173 g  <br>
+	Screen Size: 5.8 inches <br></td>
+	<td> <input type="image" name="iphone" id="index_images" src="images/phones_banner/banner_iphone_x.jpg" ></td> 
+<td> Brand: Apple <br>
+	Phone: Iphone X <br>
+	Price: &dollar;1000 <br>
+	Weight: 174 grams <br>
+	Screen Size: 5.8 inches <br>
+	</td>
+	</tr>
+		<tr> <td> <input type="image" name="htc" id="index_images" src="images/phones_banner/htc.jpg" > </td> 
+<td> Brand: HTC <br>
+	Phone: HTC Windows Phone 8X <br>
+	Price: &dollar;600 <br>
+	Weight: 130 g <br>
+	Screen Size: 4.3 inches <br></td>
+	<td> <input type="image" name="windows" id="index_images" src="images/phones_banner/windows.jpg" ></td> 
+<td> Brand: HP <br>
+	Phone: HP Elite x3 <br>
+	Price: &dollar;700 <br>
+	Weight: 195 g <br>
+	Screen Size: 5.96 inches  <br>
+	</td>
+	</tr>
+			<tr> <td> <input type="image" name="nokia" id="index_images" src="images/phones_banner/nokia.jpg" > </td> 
+<td> Brand: Nokia <br>
+	Phone: Nokia Lumia <br>
+	Price: &dollar;100 <br>
+	Weight: 185 g <br>
+	Screen Size: 5.2 inches  <br></td>
+	<td> <input type="image" name="motorola" id="index_images" src="images/phones_banner/motorola.jpg" ></td> 
+<td> Brand: Motorola <br>
+	Phone: Motorola G<br>
+	Price: &dollar;800 <br>
+	Weight: 175 g <br>
+	Screen Size: 5.0 inches <br>
+	</td>
+	</tr>
+			<tr> <td> <input type="image" name="lenovo" id="index_images" src="images/phones_banner/lenovo.jpg" > </td> 
+<td> Brand: Lenovo <br>
+	Phone: Lenovo Phab <br>
+	Price: &dollar;249.99 <br>
+	Weight: 190 g <br>
+	Screen Size: 6.4 inches <br></td>
+	<td> <input type="image" name="lg" id="index_images" src="images/phones_banner/lg.jpg" ></td> 
+<td> Brand: LG <br>
+	Phone: LG G4<br>
+	Price: &dollar;450 <br>
+	Weight: 155 g <br>
+	Screen Size: 5.5 inches <br>
+	</td>
+	</tr>
+	
+
+</div>
+</table>
+</form>
+</body>
+</html>
