@@ -34,7 +34,7 @@ public class test {
 			// 1. Load the properties file
 			Properties props = new Properties();
 			//props.load(new FileInputStream("demo.properties"));
-			props.load(new FileInputStream("C:/Users/Ahmed/workspace/OnlineShoppingStore/src/com/demo.properties"));
+			props.load(new FileInputStream("C:/Users/workspace/OnlineShoppingStore/src/com/demo.properties"));
 
 			// 2. Read the props
 			String theUser = props.getProperty("user");
